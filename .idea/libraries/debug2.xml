@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="debug2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ex7_Click/app/build/intermediates/pre-dexed/debug/classes-6df18bcc83015e823a57289edddf029bb95a9eff.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Ex7_Click/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-6438d858d2d9da7124f9d372fad459cb09ab9219.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Ex7_Click/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-753f14079683fbd35c29823d43bf8b1cf5d482b9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Ex7_Click/app/build/intermediates/pre-dexed/debug/classes-6518a5ebd38a5fc80de8bc355b97861d28e1853d.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="debug1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ex9_TaoLayout/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-d991057c6e953c8e46dd33cb27f94a29bbfe631d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Ex9_TaoLayout/app/build/intermediates/pre-dexed/debug/classes-f94c2d64e68f2a05a2db677360116cfee201afed.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Ex9_TaoLayout/app/build/intermediates/pre-dexed/debug/classes-a3d679c2e4aabcd5f4eceda2f2312ec119335b62.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Ex9_TaoLayout/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-753f14079683fbd35c29823d43bf8b1cf5d482b9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
