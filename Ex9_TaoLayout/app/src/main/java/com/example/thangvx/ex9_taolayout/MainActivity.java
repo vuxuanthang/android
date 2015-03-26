@@ -11,6 +11,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
@@ -18,16 +21,28 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     private int id1 = 2;
     private int id2 = 1;
     private int id3 = 3;
+    private ImageView im;
+    private Layout lo;
+    private List ls = new ArrayList();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ImageView im1 = (ImageView) findViewById(R.id.imageView1);
+        lo.setIm(im1);
+        lo.setPosition(2);
+        ls.add(lo);
         im1.setBackgroundColor(Color.RED);
         ImageView im2 = (ImageView) findViewById(R.id.imageView2);
         im2.setBackgroundColor(Color.YELLOW);
+        lo.setIm(im2);
+        lo.setPosition(1);
+        ls.add(lo);
         ImageView im3 = (ImageView) findViewById(R.id.imageView3);
         im3.setBackgroundColor(Color.BLUE);
+        lo.setIm(im3);
+        lo.setPosition(3);
+        ls.add(lo);
         Button b = (Button) findViewById(R.id.button);
         b.setOnClickListener(this);
         colorM[0] = Color.RED ;
@@ -60,15 +75,17 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        ImageView im1 = (ImageView) findViewById(R.id.imageView1);
-        ImageView im2 = (ImageView) findViewById(R.id.imageView2);
-        ImageView im3 = (ImageView) findViewById(R.id.imageView3);
+
 
         switch (v.getId()){
             case R.id.button:
                 int a = id1-1;
                 int b = id2-1;
                 int c = id3-1;
+                Layout test = new Layout();
+                for(int i = 0; i < ls.size() ; i ++){
+                    test = ls.get(i);
+                }
 
                 im1.setBackgroundColor(colorM[a]);
                 im2.setBackgroundColor(colorM[b]);
